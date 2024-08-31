@@ -1,6 +1,7 @@
+import Home from "@/pages/Home/Home";
 
-export default function Home() {
+export default function Page() {
   return (
-    <main></main>
+    <Home />
   );
 }
