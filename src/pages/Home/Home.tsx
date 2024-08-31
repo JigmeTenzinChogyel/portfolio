@@ -1,16 +1,14 @@
 import { FirstLanding } from "@/components";
 
-type Props = {
-
-}
+type Props = {};
 
 const Home: React.FC<Props> = () => {
-    return (
-        <main className="flex w-full h-full">
-            <FirstLanding />
-        </main>
-    )
-}
+  return (
+    <main className="flex w-full h-full">
+      <FirstLanding />
+    </main>
+  );
+};
 
 export default Home;
 
