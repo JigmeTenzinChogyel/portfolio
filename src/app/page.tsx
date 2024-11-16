@@ -1,5 +1,11 @@
-import Home from "@/pages/Home";
+import { Landing } from "@/components/landing";
 
 export default function Page() {
-  return <Home />;
+  return (
+    <>
+      <main className="w-full h-screen">
+        <Landing />
+      </main>
+    </>
+  );
 }
