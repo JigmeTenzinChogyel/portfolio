@@ -42,7 +42,7 @@ export const Experience = () => {
   const workExp = Experiences.filter((exp) => exp.type === "work");
   const eduExp = Experiences.filter((exp) => exp.type === "education");
   return (
-    <section className="space-y-8 py-4">
+    <section className="space-y-8 mb-10 py-4">
       <h4>Experiences</h4>
       <div className="space-y-8">
         <div className="flex justify-between items-center">

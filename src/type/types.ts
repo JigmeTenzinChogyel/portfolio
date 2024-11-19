@@ -5,3 +5,9 @@ export type TimeLineType = {
   work?: string[];
   type?: "work" | "education";
 };
+
+export type TechType = {
+  image: string;
+  name: string;
+  description: string;
+};

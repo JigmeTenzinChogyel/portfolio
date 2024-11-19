@@ -4,7 +4,7 @@ import { BsDownload } from "react-icons/bs";
 
 export const Landing = () => {
   return (
-    <section className="w-full flex items-center justify-center h-3/4">
+    <section className="w-full flex items-center justify-center h-screen">
       <div className="space-y-6">
         <div className="flex items-center justify-center gap-4">
           <Image
@@ -16,7 +16,7 @@ export const Landing = () => {
           />
           <div>
             <h3>JIGME TENZIN CHOGYEL</h3>
-            <p>Based in Thimphu, Bhutan</p>
+            <p>Based In Bhutan</p>
           </div>
         </div>
         <div className="text-8xl font-bold space-y-4 tracking-wide">
