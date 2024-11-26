@@ -8,6 +8,16 @@ export type TimeLineType = {
 
 export type TechType = {
   image: string;
+  alt?: string;
   name: string;
   description: string;
+};
+
+export type ProjectType = {
+  image: string;
+  alt: string;
+  name: string;
+  description?: string;
+  link?: string;
+  date?: Date;
 };
